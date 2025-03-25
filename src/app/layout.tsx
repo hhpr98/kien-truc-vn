@@ -282,7 +282,7 @@ export default function RootLayout({
               <div className="row align-items-center">
 
                 <div className="col-lg-6 col-12">
-                  <img src="images/retail-shop-owner-mask-social-distancing-shopping.jpg" className="img-fluid" alt=""/>
+                  <img src="images/retail-shop-owner-mask-social-distancing-shopping.jpg" className="img-fluid" alt="" />
                 </div>
 
                 <div className="col-lg-6 col-12">
@@ -314,7 +314,7 @@ export default function RootLayout({
                 <div className="col-lg-4 col-12 mb-3">
                   <div className="product-thumb">
                     <a href="product-detail.html">
-                      <img src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" className="img-fluid product-image" alt=""/>
+                      <img src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" className="img-fluid product-image" alt="" />
                     </a>
 
                     <div className="product-top d-flex">
@@ -340,7 +340,7 @@ export default function RootLayout({
                 <div className="col-lg-4 col-12 mb-3">
                   <div className="product-thumb">
                     <a href="product-detail.html">
-                      <img src="images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg" className="img-fluid product-image" alt=""/>
+                      <img src="images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg" className="img-fluid product-image" alt="" />
                     </a>
 
                     <div className="product-top d-flex">
@@ -366,7 +366,7 @@ export default function RootLayout({
                 <div className="col-lg-4 col-12">
                   <div className="product-thumb">
                     <a href="product-detail.html">
-                      <img src="images/product/nature-zen-3Dn1BZZv3m8-unsplash.jpeg" className="img-fluid product-image" alt=""/>
+                      <img src="images/product/nature-zen-3Dn1BZZv3m8-unsplash.jpeg" className="img-fluid product-image" alt="" />
                     </a>
 
                     <div className="product-top d-flex">
@@ -404,11 +404,8 @@ export default function RootLayout({
               <div className="col-lg-3 col-10 me-auto mb-4">
                 <h4 className="text-white mb-3"><a href="index.html">Little</a> Fashion</h4>
                 <p className="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2022 <strong>Little Fashion</strong></p>
-                <br/>
-                  <p className="copyright-text">Designed by <a href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
-              </div>
-
-              <div className="col-lg-5 col-8">
+                <br />
+                <p className="copyright-text">Designed by <a href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
                 <h5 className="text-white mb-3">Sitemap</h5>
 
                 <ul className="footer-menu d-flex flex-wrap">
@@ -452,6 +449,6 @@ export default function RootLayout({
         <script src="js/custom.js"></script>
 
       </body>
-    </html>
+    </html >
   );
 }
