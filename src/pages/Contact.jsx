@@ -7,7 +7,22 @@ function Contact() {
           <div className="col-lg-6 col-12">
             <h2 className="mb-4">Liên hệ và báo giá</h2>
 
-            <form className="contact-form me-lg-5 pe-lg-3" role="form">
+            <form
+              className="contact-form me-lg-5 pe-lg-3"
+              role="form"
+              onSubmit={(e) => {
+                e.preventDefault();
+                const name = e.target.name.value;
+                const email = e.target.email.value;
+                const subject = e.target.subject.value;
+                const message = e.target.message.value;
+
+                const mailtoLink = `mailto:phi.nguyen@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+                  `Tên: ${name}\nEmail: ${email}\n\n${message}`
+                )}`;
+                window.location.href = mailtoLink;
+              }}
+            >
 
               <div className="form-floating">
                 <input type="text" name="name" id="name" className="form-control" placeholder="Full name" required />
@@ -22,7 +37,7 @@ function Contact() {
               </div>
 
               <div className="form-floating my-4">
-                <input type="subject" name="subject" id="subject" className="form-control" placeholder="Subject" required />
+                <input type="text" name="subject" id="subject" className="form-control" placeholder="Subject" required />
 
                 <label htmlFor="subject">Tiêu đề</label>
               </div>
@@ -81,7 +96,7 @@ function Contact() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Contact;
