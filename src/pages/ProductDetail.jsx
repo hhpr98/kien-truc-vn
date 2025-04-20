@@ -51,9 +51,24 @@ const ProductDetail = () => {
                 <a href="https://zalo.me/0968960057" className="product-additional-link">Thanh toán cọc</a>
               </p>
             </div>
-
           </div>
+        </div>
+      </div>
+    </section>
 
+    <section className="related-product section-padding border-top">
+      <div className="container">
+        <div className="col-12 text-center">
+          <h2 className="mb-5">Hình ảnh dự án</h2>
+        </div>
+        <div className="row">
+          {project?.projectImages?.map((image, index) => (
+            <div className="col-lg-4 col-md-6 col-12 mb-4" key={index}>
+              <div className="related-product-thumb">
+                <img src={image?.imageURL} className="img-fluid related-product-image" alt={image?.imageName} />
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
