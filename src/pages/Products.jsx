@@ -5,162 +5,189 @@ function Products() {
     <Fragment>
       <section class="products section-padding">
         <div class="container">
-          <div class="row">
-
-            <div class="col-12">
-              <h2 class="mb-5">Dự án mới</h2>
-            </div>
-
-            <div class="col-lg-4 col-12 mb-3">
-              <div class="product-thumb">
+          <div className="col-12 text-center">
+            <h2 className="mb-5">Dự án mới</h2>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 col-12 mb-3">
+              <div className="product-thumb">
                 <a href="product-detail.html">
-                  <img src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" class="img-fluid product-image" alt="" />
+                  <img src="/images/du-an/du-an-1/4069ed6493eb20b579fa10.jpg" className="img-fluid product-image" alt="Căn hộ 2 phòng ngủ" />
                 </a>
 
-                <div class="product-top d-flex">
-                  <span class="product-alert me-auto">New Arrival</span>
+                <div className="product-top d-flex">
+                  <span className="product-alert me-auto">Mới</span>
 
-                  <a href="#" class="bi-heart-fill product-icon"></a>
-                </div>
-
-                <div class="product-info d-flex">
-                  <div>
-                    <h5 class="product-title mb-0">
-                      <a href="product-detail.html" class="product-title-link">Tree pot</a>
-                    </h5>
-
-                    <p class="product-p">Original package design from house</p>
-                  </div>
-
-                  <small class="product-price text-muted ms-auto">$25</small>
+                  <a href="#" className="bi-heart-fill product-icon"></a>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-12 mb-3">
-              <div class="product-thumb">
+            <div className="col-lg-4 col-12 mb-3">
+              <div className="product-thumb">
                 <a href="product-detail.html">
-                  <img src="images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg" class="img-fluid product-image" alt="" />
+                  <img src="/images/du-an/du-an-2/78e739b2473df463ad2c16.jpg" className="img-fluid product-image" alt="" />
                 </a>
 
-                <div class="product-top d-flex">
-                  <span class="product-alert">Discounted Price</span>
+                <div className="product-top d-flex">
+                  <span className="product-alert">Mới</span>
 
-                  <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                </div>
-
-                <div class="product-info d-flex">
-                  <div>
-                    <h5 class="product-title mb-0">
-                      <a href="product-detail.html" class="product-title-link">Fashion set</a>
-                    </h5>
-
-                    <p class="product-p">Costume package</p>
-                  </div>
-
-                  <small class="product-price text-muted ms-auto">$35</small>
+                  <a href="#" className="bi-heart-fill product-icon ms-auto"></a>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-12">
-              <div class="product-thumb">
+            <div className="col-lg-4 col-12">
+              <div className="product-thumb">
                 <a href="product-detail.html">
-                  <img src="images/product/nature-zen-3Dn1BZZv3m8-unsplash.jpeg" class="img-fluid product-image" alt="" />
+                  <img src="/images/du-an/du-an-3/242356a3282c9b72c23d24.jpg" className="img-fluid product-image" alt="" />
                 </a>
 
-                <div class="product-top d-flex">
-                  <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                <div className="product-top d-flex">
+                  <a href="#" className="bi-heart-fill product-icon ms-auto"></a>
                 </div>
-
-                <div class="product-info d-flex">
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 col-12 mb-3">
+              <div className="product-thumb">
+                <div className="product-info d-flex">
                   <div>
-                    <h5 class="product-title mb-0">
-                      <a href="product-detail.html" class="product-title-link">Juice Drinks</a>
+                    <h5 className="product-title mb-0">
+                      <a href="product-detail.html" className="product-title-link">Căn hộ</a>
                     </h5>
 
-                    <p class="product-p">Nature made another world</p>
+                    <p className="product-p">2 phòng ngủ, 80×80 m&sup2;</p>
                   </div>
 
-                  <small class="product-price text-muted ms-auto">$45</small>
+                  <small className="product-price text-muted ms-auto mt-auto mb-5">Q2-2024</small>
                 </div>
               </div>
             </div>
 
-            <div class="col-12">
-              <h2 class="mb-5">Dự án nổi bật</h2>
-            </div>
-
-            <div class="col-lg-4 col-12 mb-3">
-              <div class="product-thumb">
-                <a href="product-detail.html">
-                  <img src="images/product/team-fredi-8HRKoay8VJE-unsplash.jpeg" class="img-fluid product-image" alt="" />
-                </a>
-
-                <div class="product-top d-flex">
-                  <span class="product-alert">Trending</span>
-
-                  <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                </div>
-
-                <div class="product-info d-flex">
+            <div className="col-lg-4 col-12 mb-3">
+              <div className="product-thumb">
+                <div className="product-info d-flex">
                   <div>
-                    <h5 class="product-title mb-0">
-                      <a href="product-detail.html" class="product-title-link">Package</a>
+                    <h5 className="product-title mb-0">
+                      <a href="product-detail.html" className="product-title-link">Nhà</a>
                     </h5>
 
-                    <p class="product-p">Original package design from house</p>
+                    <p className="product-p">Nhà cấp 4, 40x100 m&sup2;, có bãi đậu ô tô</p>
                   </div>
 
-                  <small class="product-price text-muted ms-auto">$50</small>
+                  <small className="product-price text-muted ms-auto mt-auto mb-5">Q4-2024</small>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-12 mb-3">
-              <div class="product-thumb">
-                <a href="product-detail.html">
-                  <img src="images/product/quokkabottles-kFc1_G1GvKA-unsplash.jpeg" class="img-fluid product-image" alt="" />
-                </a>
-
-                <div class="product-top d-flex">
-                  <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                </div>
-
-                <div class="product-info d-flex">
+            <div className="col-lg-4 col-12">
+              <div className="product-thumb">
+                <div className="product-info d-flex">
                   <div>
-                    <h5 class="product-title mb-0">
-                      <a href="product-detail.html" class="product-title-link">Bottle</a>
+                    <h5 className="product-title mb-0">
+                      <a href="product-detail.html" className="product-title-link">Căn hộ</a>
                     </h5>
 
-                    <p class="product-p">Package design</p>
+                    <p className="product-p">Luxury, ngay trung tâm Quận 1</p>
                   </div>
 
-                  <small class="product-price text-muted ms-auto">$100</small>
+                  <small className="product-price text-muted ms-auto mt-auto mb-5">Q1-2025</small>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-12 mb-3">
-              <div class="product-thumb">
+          </div>
+          <div className="col-12 text-center">
+            <h2 className="mb-5">Dự án sắp tới</h2>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 col-12 mb-3">
+              <div className="product-thumb">
                 <a href="product-detail.html">
-                  <img src="images/product/anis-m-WnVrO-DvxcE-unsplash.jpeg" class="img-fluid product-image" alt="" />
+                  <img src="/images/du-an/du-an-1/4069ed6493eb20b579fa10.jpg" className="img-fluid product-image" alt="Căn hộ 2 phòng ngủ" />
                 </a>
 
-                <div class="product-top d-flex">
-                  <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                </div>
+                <div className="product-top d-flex">
+                  <span className="product-alert me-auto">Mới</span>
 
-                <div class="product-info d-flex">
+                  <a href="#" className="bi-heart-fill product-icon"></a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-12 mb-3">
+              <div className="product-thumb">
+                <a href="product-detail.html">
+                  <img src="/images/du-an/du-an-2/78e739b2473df463ad2c16.jpg" className="img-fluid product-image" alt="" />
+                </a>
+
+                <div className="product-top d-flex">
+                  <span className="product-alert">Mới</span>
+
+                  <a href="#" className="bi-heart-fill product-icon ms-auto"></a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-12">
+              <div className="product-thumb">
+                <a href="product-detail.html">
+                  <img src="/images/du-an/du-an-3/242356a3282c9b72c23d24.jpg" className="img-fluid product-image" alt="" />
+                </a>
+
+                <div className="product-top d-flex">
+                  <a href="#" className="bi-heart-fill product-icon ms-auto"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 col-12 mb-3">
+              <div className="product-thumb">
+                <div className="product-info d-flex">
                   <div>
-                    <h5 class="product-title mb-0">
-                      <a href="product-detail.html" class="product-title-link">Medicine</a>
+                    <h5 className="product-title mb-0">
+                      <a href="product-detail.html" className="product-title-link">Căn hộ</a>
                     </h5>
 
-                    <p class="product-p">Original design from house</p>
+                    <p className="product-p">2 phòng ngủ, 80×80 m&sup2;</p>
                   </div>
 
-                  <small class="product-price text-muted ms-auto">$200</small>
+                  <small className="product-price text-muted ms-auto mt-auto mb-5">Q2-2024</small>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-12 mb-3">
+              <div className="product-thumb">
+                <div className="product-info d-flex">
+                  <div>
+                    <h5 className="product-title mb-0">
+                      <a href="product-detail.html" className="product-title-link">Nhà</a>
+                    </h5>
+
+                    <p className="product-p">Nhà cấp 4, 40x100 m&sup2;, có bãi đậu ô tô</p>
+                  </div>
+
+                  <small className="product-price text-muted ms-auto mt-auto mb-5">Q4-2024</small>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-12">
+              <div className="product-thumb">
+                <div className="product-info d-flex">
+                  <div>
+                    <h5 className="product-title mb-0">
+                      <a href="product-detail.html" className="product-title-link">Căn hộ</a>
+                    </h5>
+
+                    <p className="product-p">Luxury, ngay trung tâm Quận 1</p>
+                  </div>
+
+                  <small className="product-price text-muted ms-auto mt-auto mb-5">Q1-2025</small>
                 </div>
               </div>
             </div>

@@ -1,0 +1,59 @@
+{
+  "1": {
+    "projectId": "1",
+    "projectName": "Dự án 1",
+    "productDetail": "Details about Project Alpha",
+    "projectDescription": "This is the description for Project Alpha.",
+    "projectMainURL": "https://example.com/project-alpha",
+    "projectImages": [
+      {
+        "imageName": "",
+        "imageURL": "https://example.com/images/alpha1.jpg",
+        "imageDescription": "Front view of Project Alpha"
+      },
+      {
+        "imageName": "",
+        "imageURL": "https://example.com/images/alpha2.jpg",
+        "imageDescription": "Side view of Project Alpha"
+      }
+    ]
+  },
+  "2": {
+    "projectId": "2",
+    "projectName": "Project Beta",
+    "productDetail": "Details about Project Beta",
+    "projectDescription": "This is the description for Project Beta.",
+    "projectMainURL": "https://example.com/project-beta",
+    "projectImages": [
+      {
+        "imageName": "",
+        "imageURL": "https://example.com/images/beta1.jpg",
+        "imageDescription": "Front view of Project Beta"
+      },
+      {
+        "imageName": "",
+        "imageURL": "https://example.com/images/beta2.jpg",
+        "imageDescription": "Interior view of Project Beta"
+      }
+    ]
+  },
+  "3": {
+    "projectId": "3",
+    "projectName": "Project Gamma",
+    "productDetail": "Details about Project Gamma",
+    "projectDescription": "This is the description for Project Gamma.",
+    "projectMainURL": "https://example.com/project-gamma",
+    "projectImages": [
+      {
+        "imageName": "",
+        "imageURL": "https://example.com/images/gamma1.jpg",
+        "imageDescription": "Aerial view of Project Gamma"
+      },
+      {
+        "imageName": "",
+        "imageURL": "https://example.com/images/gamma2.jpg",
+        "imageDescription": "Night view of Project Gamma"
+      }
+    ]
+  }
+}
