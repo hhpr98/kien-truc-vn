@@ -33,19 +33,19 @@ function NavBar() {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="/">Trang chủ</a>
+              <a className={`nav-link ${getActiveClass('/')}`} href="/">Trang chủ</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="/gioi-thieu">Giới thiệu</a>
+              <a className={`nav-link ${getActiveClass('/gioi-thieu')}`} href="/gioi-thieu">Giới thiệu</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="/du-an">Dự án</a>
+              <a className={`nav-link ${getActiveClass('/du-an', false)}`} href="/du-an">Dự án</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="/lien-he">Liên hệ</a>
+              <a className={`nav-link ${getActiveClass('/lien-he')}`} href="/lien-he">Liên hệ</a>
             </li>
           </ul>
 
