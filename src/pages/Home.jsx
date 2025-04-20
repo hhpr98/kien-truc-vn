@@ -61,7 +61,7 @@ function Home() {
                       <p>Dự án 80×80 m&sup2; tọa lạc ngay trung tâm thành phố, mang đến vị trí đắc địa thuận tiện kết nối mọi khu vực. Với thiết kế tối ưu không gian và phong cách hiện đại, dự án hứa hẹn đáp ứng đa dạng nhu cầu sử dụng.</p>
                       <p>Diện tích lý tưởng cho văn phòng, showroom hoặc không gian sáng tạo cá nhân. Tiện ích xung quanh đầy đủ, phù hợp để an cư hoặc đầu tư lâu dài.</p>
                       <div className="mt-2 mt-lg-auto">
-                        <a href="/du-an" className="custom-link mb-2">
+                        <a href="/du-an/1" className="custom-link mb-2">
                           Tìm hiểu thêm dự án tại đây
                           <i className="bi-arrow-right ms-2"></i>
                         </a>
