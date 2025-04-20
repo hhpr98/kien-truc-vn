@@ -5,7 +5,7 @@ function Contact() {
         <div className="row">
 
           <div className="col-lg-6 col-12">
-            <h2 className="mb-4">Liên hệ và báo giá</h2>
+            <h2 className="mt-5 mb-4">Liên hệ và báo giá</h2>
 
             <form
               className="contact-form me-lg-5 pe-lg-3"

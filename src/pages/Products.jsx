@@ -6,7 +6,7 @@ function Products() {
       <section className="products section-padding">
         <div className="container">
           <div className="col-12 text-center">
-            <h2 className="mb-5">Dự án mới</h2>
+            <h2 className="mt-5 mb-5">Dự án mới</h2>
           </div>
           <div className="row">
             <div className="col-lg-4 col-12 mb-3">
