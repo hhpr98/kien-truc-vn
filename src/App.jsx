@@ -12,8 +12,8 @@ function App() {
   return (
     <>
       <FloatingPanel />
-      <NavBar />
       <BrowserRouter>
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/du-an" element={<Products />} />

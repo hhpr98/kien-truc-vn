@@ -1,4 +1,18 @@
+import { useLocation } from "react-router-dom";
+
 function NavBar() {
+  const { pathname } = useLocation();
+
+  const getActiveClass = (path, exact = true) => {
+    return exact
+      ? pathname === path
+        ? 'active'
+        : ''
+      : pathname.startsWith(path)
+        ? 'active'
+        : ''
+  };
+
   return (
     <nav class="navbar navbar-expand-lg">
       <div class="container">
