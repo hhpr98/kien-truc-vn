@@ -14,45 +14,45 @@ function NavBar() {
   };
 
   return (
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav className="navbar navbar-expand-lg">
+      <div className="container">
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
         </button>
 
-        <a class="navbar-brand" href="/">
+        <a className="navbar-brand" href="/">
           <strong><span>Phi</span> Design</strong>
         </a>
 
-        <div class="d-lg-none">
-          <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+        <div className="d-lg-none">
+          <a href="sign-in.html" className="bi-person custom-icon me-3"></a>
 
-          <a href="/du-an/2" class="bi-bag custom-icon"></a>
+          <a href="/du-an/2" className="bi-bag custom-icon"></a>
         </div>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav mx-auto">
+            <li className="nav-item">
               <a className={`nav-link ${getActiveClass('/')}`} href="/">Trang chủ</a>
             </li>
 
-            <li class="nav-item">
+            <li className="nav-item">
               <a className={`nav-link ${getActiveClass('/gioi-thieu')}`} href="/gioi-thieu">Giới thiệu</a>
             </li>
 
-            <li class="nav-item">
+            <li className="nav-item">
               <a className={`nav-link ${getActiveClass('/du-an', false)}`} href="/du-an">Dự án</a>
             </li>
 
-            <li class="nav-item">
+            <li className="nav-item">
               <a className={`nav-link ${getActiveClass('/lien-he')}`} href="/lien-he">Liên hệ</a>
             </li>
           </ul>
 
-          <div class="d-none d-lg-block">
-            <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+          <div className="d-none d-lg-block">
+            <a href="sign-in.html" className="bi-person custom-icon me-3"></a>
 
-            <a href="/du-an/3" class="bi-bag custom-icon" hidden></a>
+            <a href="/du-an/3" className="bi-bag custom-icon" hidden></a>
           </div>
         </div>
       </div>

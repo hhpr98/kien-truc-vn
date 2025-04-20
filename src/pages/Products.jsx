@@ -3,8 +3,8 @@ import { Fragment } from "react";
 function Products() {
   return (
     <Fragment>
-      <section class="products section-padding">
-        <div class="container">
+      <section className="products section-padding">
+        <div className="container">
           <div className="col-12 text-center">
             <h2 className="mb-5">Dự án mới</h2>
           </div>
