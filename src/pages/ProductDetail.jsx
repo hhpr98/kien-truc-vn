@@ -33,6 +33,11 @@ const ProductDetail = () => {
             </div>
 
             <div className="product-description">
+              <strong className="d-block mt-4 mb-2">Giá xây dựng</strong>
+              <p className="product-p mb-5">{project?.projectPrice}</p>
+            </div>
+
+            <div className="product-description">
               <strong className="d-block mt-4 mb-2">Mô tả</strong>
               <p className="text-muted mb-5">{project?.projectDescription}</p>
             </div>
