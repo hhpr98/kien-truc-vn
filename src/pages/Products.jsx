@@ -11,7 +11,7 @@ function Products() {
           <div className="row">
             <div className="col-lg-4 col-12 mb-3">
               <div className="product-thumb">
-                <a href="product-detail.html">
+                <a href="/du-an/1">
                   <img src="/images/du-an/du-an-1/4069ed6493eb20b579fa10.jpg" className="img-fluid product-image" alt="Căn hộ 2 phòng ngủ" />
                 </a>
 
@@ -25,7 +25,7 @@ function Products() {
 
             <div className="col-lg-4 col-12 mb-3">
               <div className="product-thumb">
-                <a href="product-detail.html">
+                <a href="/du-an/2">
                   <img src="/images/du-an/du-an-2/78e739b2473df463ad2c16.jpg" className="img-fluid product-image" alt="" />
                 </a>
 
@@ -39,7 +39,7 @@ function Products() {
 
             <div className="col-lg-4 col-12">
               <div className="product-thumb">
-                <a href="product-detail.html">
+                <a href="/du-an/3">
                   <img src="/images/du-an/du-an-3/242356a3282c9b72c23d24.jpg" className="img-fluid product-image" alt="" />
                 </a>
 
@@ -55,7 +55,7 @@ function Products() {
                 <div className="product-info d-flex">
                   <div>
                     <h5 className="product-title mb-0">
-                      <a href="product-detail.html" className="product-title-link">Căn hộ</a>
+                      <a href="/du-an/1" className="product-title-link">Căn hộ</a>
                     </h5>
 
                     <p className="product-p">2 phòng ngủ, 80×80 m&sup2;</p>
@@ -71,7 +71,7 @@ function Products() {
                 <div className="product-info d-flex">
                   <div>
                     <h5 className="product-title mb-0">
-                      <a href="product-detail.html" className="product-title-link">Nhà</a>
+                      <a href="/du-an/2" className="product-title-link">Nhà</a>
                     </h5>
 
                     <p className="product-p">Nhà cấp 4, 40x100 m&sup2;, có bãi đậu ô tô</p>
@@ -87,7 +87,7 @@ function Products() {
                 <div className="product-info d-flex">
                   <div>
                     <h5 className="product-title mb-0">
-                      <a href="product-detail.html" className="product-title-link">Căn hộ</a>
+                      <a href="/du-an/3" className="product-title-link">Căn hộ</a>
                     </h5>
 
                     <p className="product-p">Luxury, ngay trung tâm Quận 1</p>
@@ -105,7 +105,7 @@ function Products() {
           <div className="row">
             <div className="col-lg-4 col-12 mb-3">
               <div className="product-thumb">
-                <a href="product-detail.html">
+                <a href="/du-an/1">
                   <img src="/images/du-an/du-an-1/4069ed6493eb20b579fa10.jpg" className="img-fluid product-image" alt="Căn hộ 2 phòng ngủ" />
                 </a>
 
@@ -119,7 +119,7 @@ function Products() {
 
             <div className="col-lg-4 col-12 mb-3">
               <div className="product-thumb">
-                <a href="product-detail.html">
+                <a href="/du-an/2">
                   <img src="/images/du-an/du-an-2/78e739b2473df463ad2c16.jpg" className="img-fluid product-image" alt="" />
                 </a>
 
@@ -133,7 +133,7 @@ function Products() {
 
             <div className="col-lg-4 col-12">
               <div className="product-thumb">
-                <a href="product-detail.html">
+                <a href="/du-an/3">
                   <img src="/images/du-an/du-an-3/242356a3282c9b72c23d24.jpg" className="img-fluid product-image" alt="" />
                 </a>
 
@@ -149,7 +149,7 @@ function Products() {
                 <div className="product-info d-flex">
                   <div>
                     <h5 className="product-title mb-0">
-                      <a href="product-detail.html" className="product-title-link">Căn hộ</a>
+                      <a href="/du-an/1" className="product-title-link">Căn hộ</a>
                     </h5>
 
                     <p className="product-p">2 phòng ngủ, 80×80 m&sup2;</p>
@@ -165,7 +165,7 @@ function Products() {
                 <div className="product-info d-flex">
                   <div>
                     <h5 className="product-title mb-0">
-                      <a href="product-detail.html" className="product-title-link">Nhà</a>
+                      <a href="/du-an/2" className="product-title-link">Nhà</a>
                     </h5>
 
                     <p className="product-p">Nhà cấp 4, 40x100 m&sup2;, có bãi đậu ô tô</p>
@@ -181,7 +181,7 @@ function Products() {
                 <div className="product-info d-flex">
                   <div>
                     <h5 className="product-title mb-0">
-                      <a href="product-detail.html" className="product-title-link">Căn hộ</a>
+                      <a href="/du-an/3" className="product-title-link">Căn hộ</a>
                     </h5>
 
                     <p className="product-p">Luxury, ngay trung tâm Quận 1</p>
