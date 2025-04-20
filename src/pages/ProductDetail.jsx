@@ -67,7 +67,7 @@ const ProductDetail = () => {
           <div className="col-lg-4 col-12 mb-3">
             <div className="product-thumb">
               <a href="/du-an/1">
-                <img src="/images/du-an/du-an-1/4069ed6493eb20b579fa10.jpg" className="img-fluid product-image" alt="Căn hộ 2 phòng ngủ" />
+                <img src="/images/du-an/du-an-1/4069ed6493eb20b579fa10.jpg" className="img-fluid product-image image-full" alt="Căn hộ 2 phòng ngủ" />
               </a>
 
               <div className="product-top d-flex">
@@ -81,7 +81,7 @@ const ProductDetail = () => {
           <div className="col-lg-4 col-12 mb-3">
             <div className="product-thumb">
               <a href="/du-an/2">
-                <img src="/images/du-an/du-an-2/78e739b2473df463ad2c16.jpg" className="img-fluid product-image" alt="" />
+                <img src="/images/du-an/du-an-2/78e739b2473df463ad2c16.jpg" className="img-fluid product-image image-full" alt="" />
               </a>
 
               <div className="product-top d-flex">
@@ -95,7 +95,7 @@ const ProductDetail = () => {
           <div className="col-lg-4 col-12">
             <div className="product-thumb">
               <a href="/du-an/3">
-                <img src="/images/du-an/du-an-3/242356a3282c9b72c23d24.jpg" className="img-fluid product-image" alt="" />
+                <img src="/images/du-an/du-an-3/242356a3282c9b72c23d24.jpg" className="img-fluid product-image image-full" alt="" />
               </a>
 
               <div className="product-top d-flex">
@@ -167,12 +167,12 @@ const ProductDetail = () => {
           <div className="modal-body">
             <div className="row">
               <div className="col-lg-12 col-12 mt-4 mt-lg-0">
-                <img src="/images/trang-chu/bao-gia.PNG" className="img-fluid product-image" alt="" />
+                <img src="/images/trang-chu/bao-gia.PNG" className="img-fluid product-image image-full" alt="" />
               </div>
             </div>
             <div className="row mt-5">
               <div className="col-lg-6 col-12 mt-4 mt-lg-0">
-                <img src={project?.projectMainURL} className="img-fluid product-image" alt="" />
+                <img src={project?.projectMainURL} className="img-fluid product-image image-full" alt="" />
               </div>
 
               <div className="col-lg-6 col-12 mt-3 mt-lg-0">
