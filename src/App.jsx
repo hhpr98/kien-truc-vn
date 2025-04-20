@@ -6,11 +6,13 @@ import Products from './pages/Products';
 import NotFound from './pages/NotFound';
 import ProductDetail from './pages/ProductDetail';
 import Contacts from './pages/Contact';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <>
       <FloatingPanel />
+      <NavBar />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
