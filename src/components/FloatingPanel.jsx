@@ -3,7 +3,7 @@ import './FloatingPanel.css';
 function FloatingPanel() {
   return (
     <div className="floating-panel">
-      <a href="#" className="panel-item">
+      <a href="/lien-he" className="panel-item">
         <img src="/icons/bao-gia.jpg" alt="Báo giá" />
         <span>Báo giá</span>
       </a>
