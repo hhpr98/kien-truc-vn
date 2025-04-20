@@ -46,11 +46,9 @@ const ProductDetail = () => {
               <div className="col-lg-6 col-12 mt-4 mt-lg-0">
                 <button type="submit" className="btn custom-btn cart-btn" data-bs-toggle="modal" data-bs-target="#cart-modal">Liên hệ báo giá</button>
               </div>
-
               <p>
                 <a href="#" className="product-additional-link">Chi tiết</a>
-
-                <a href="#" className="product-additional-link">Thanh toán cọc</a>
+                <a href="https://zalo.me/0968960057" className="product-additional-link">Thanh toán cọc</a>
               </p>
             </div>
 
@@ -158,6 +156,43 @@ const ProductDetail = () => {
         </div>
       </div>
     </section>
+    {/* CART MODAL */}
+    <div className="modal fade" id="cart-modal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div className="modal-dialog modal-dialog-centered modal-lg">
+        <div className="modal-content border-0">
+          <div className="modal-header flex-column">
+            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div className="modal-body">
+            <div className="row">
+              <div className="col-lg-12 col-12 mt-4 mt-lg-0">
+                <img src="/images/trang-chu/bao-gia.PNG" className="img-fluid product-image" alt="" />
+              </div>
+            </div>
+            <div className="row mt-5">
+              <div className="col-lg-6 col-12 mt-4 mt-lg-0">
+                <img src={project?.projectMainURL} className="img-fluid product-image" alt="" />
+              </div>
+
+              <div className="col-lg-6 col-12 mt-3 mt-lg-0">
+                <h3 className="modal-title" id="exampleModalLabel">{project?.projectName}</h3>
+                <p className="product-p mt-2">Giá: <span className="ms-1">{project?.projectPrice}</span></p>
+                <p className="product-p">Loại: <span className="ms-1">Chưa xác định</span></p>
+
+              </div>
+            </div>
+          </div>
+
+          <div className="modal-footer">
+            <div className="row w-50">
+              <a type="button" className="btn custom-btn cart-btn ms-lg-4" href="https://zalo.me/0968960057" target="_blank">Liên hệ</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </Fragment>
   )
 }
