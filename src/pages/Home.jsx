@@ -64,7 +64,7 @@ function Home() {
         <div className="row">
 
           <div className="col-12 text-center">
-            <h2 className="mb-5">Get started with <span>Little</span> Fashion</h2>
+            <h2 className="mb-5">Get started with <span>PN</span> Design</h2>
           </div>
 
           <div className="col-lg-2 col-12 mt-auto mb-auto">
