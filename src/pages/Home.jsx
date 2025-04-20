@@ -183,7 +183,7 @@ function Home() {
           <div className="col-lg-4 col-12">
             <div className="product-thumb">
               <a href="product-detail.html">
-                <img src="images/product/nature-zen-3Dn1BZZv3m8-unsplash.jpeg" className="img-fluid product-image" alt="" />
+                <img src="/images/du-an/du-an-3/242356a3282c9b72c23d24.jpg" className="img-fluid product-image" alt="" />
               </a>
 
               <div className="product-top d-flex">
@@ -230,20 +230,20 @@ function Home() {
               <div className="product-info d-flex">
                 <div>
                   <h5 className="product-title mb-0">
-                    <a href="product-detail.html" className="product-title-link">Juice Drinks</a>
+                    <a href="product-detail.html" className="product-title-link">Căn hộ</a>
                   </h5>
 
-                  <p className="product-p">Nature made another world</p>
+                  <p className="product-p">Luxury, ngay trung tâm Quận 1</p>
                 </div>
 
-                <small className="product-price text-muted ms-auto mt-auto mb-5">$45</small>
+                <small className="product-price text-muted ms-auto mt-auto mb-5">Q1-2025</small>
               </div>
             </div>
           </div>
 
         </div>
         <div className="col-12 text-center">
-          <a href="/du-an" className="view-all">View All Products</a>
+          <a href="/du-an" className="view-all">Xem tất cả dự án</a>
         </div>
       </div>
     </section>
