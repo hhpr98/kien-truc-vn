@@ -30,12 +30,11 @@ const ProductDetail = () => {
                 <h2 className="product-title mb-0">{project?.projectName}</h2>
                 <p className="product-p">{project?.productDetail}</p>
               </div>
-              <small className="product-price text-muted ms-auto mt-auto mb-5">$25</small>
             </div>
 
             <div className="product-description">
               <strong className="d-block mt-4 mb-2">Mô tả</strong>
-              <p className="lead mb-5">{project?.projectDescription}</p>
+              <p className="text-muted mb-5">{project?.projectDescription}</p>
             </div>
 
             <div className="product-cart-thumb row">
@@ -44,9 +43,9 @@ const ProductDetail = () => {
               </div>
 
               <p>
-                <a href="#" className="product-additional-link">Details</a>
+                <a href="#" className="product-additional-link">Chi tiết</a>
 
-                <a href="#" className="product-additional-link">Delivery and Payment</a>
+                <a href="#" className="product-additional-link">Thanh toán cọc</a>
               </p>
             </div>
 

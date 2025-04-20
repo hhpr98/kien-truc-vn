@@ -11,7 +11,11 @@
         "imageURL": "",
         "imageDescription": ""
       }
-    ]
+    ],
+    "projectTag": "Mới",
+    "projectStart": "",
+    "projectEnd": "",
+    "projectPrice": "2 tỷ VNĐ"
   },
   "2": {
     "projectId": "2",
@@ -25,7 +29,11 @@
         "imageURL": "",
         "imageDescription": ""
       }
-    ]
+    ],
+    "projectTag": "Mới",
+    "projectStart": "",
+    "projectEnd": "",
+    "projectPrice": "3 tỷ VNĐ"
   },
   "3": {
     "projectId": "3",
@@ -39,6 +47,10 @@
         "imageURL": "",
         "imageDescription": ""
       }
-    ]
+    ],
+    "projectTag": "",
+    "projectStart": "",
+    "projectEnd": "",
+    "projectPrice": "10 tỷ VNĐ"
   }
 }
