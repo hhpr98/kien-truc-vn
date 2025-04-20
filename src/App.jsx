@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import FloatingPanel from './components/FloatingPanel';
+import Products from './pages/Products';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/du-an" element={<Products />} />
+          <Route path="/gioi-thieu" element={<About />} />
         </Routes>
       </BrowserRouter>
     </>

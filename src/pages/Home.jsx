@@ -14,7 +14,7 @@ function Home() {
 
                 <p className="lead text-white mt-lg-3 mb-lg-5">Với thiết kế sang trọng và quý phái, sứ mệnh của chúng tôi là mang đến cho bạn trải nghiệm tốt nhất</p>
 
-                <a href="/products" className="btn custom-btn">Dự án của chúng tôi</a>
+                <a href="/du-an" className="btn custom-btn">Dự án của chúng tôi</a>
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ function Home() {
                       <p>Since this HTML template is based on Boostrap 5 CSS library, you can feel free to add more components as you need.</p>
 
                       <div className="mt-2 mt-lg-auto">
-                        <a href="/about" className="custom-link mb-2">
+                        <a href="/gioi-thieu" className="custom-link mb-2">
                           Learn more about us
                           <i className="bi-arrow-right ms-2"></i>
                         </a>
@@ -137,7 +137,7 @@ function Home() {
                       </div>
 
                       <div className="mt-2 mt-lg-auto">
-                        <a href="products.html" className="custom-link mb-2">
+                        <a href="/du-an" className="custom-link mb-2">
                           Explore products
                           <i className="bi-arrow-right ms-2"></i>
                         </a>
@@ -169,7 +169,7 @@ function Home() {
 
               <p className="lead mb-4">Credits go to Unsplash and FreePik websites for images used in this Little Fashion by Tooplate.</p>
 
-              <a href="products.html" className="custom-link">
+              <a href="/du-an" className="custom-link">
                 Explore Products
                 <i className="bi-arrow-right ms-2"></i>
               </a>
@@ -265,7 +265,7 @@ function Home() {
           </div>
 
           <div className="col-12 text-center">
-            <a href="products.html" className="view-all">View All Products</a>
+            <a href="/du-an" className="view-all">View All Products</a>
           </div>
 
         </div>
