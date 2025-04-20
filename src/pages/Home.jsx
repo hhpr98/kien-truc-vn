@@ -33,15 +33,15 @@ function Home() {
           <div className="col-lg-2 col-12 mt-auto mb-auto">
             <ul className="nav nav-pills mb-5 mx-auto justify-content-center align-items-center" id="pills-tab" role="tablist">
               <li className="nav-item" role="presentation">
-                <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Introduction</button>
+                <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Giới thiệu</button>
               </li>
 
               <li className="nav-item" role="presentation">
-                <button className="nav-link" id="pills-youtube-tab" data-bs-toggle="pill" data-bs-target="#pills-youtube" type="button" role="tab" aria-controls="pills-youtube" aria-selected="true">How we work?</button>
+                <button className="nav-link" id="pills-youtube-tab" data-bs-toggle="pill" data-bs-target="#pills-youtube" type="button" role="tab" aria-controls="pills-youtube" aria-selected="true">Tổng thể dự án</button>
               </li>
 
               <li className="nav-item" role="presentation">
-                <button className="nav-link" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="false">Capabilites</button>
+                <button className="nav-link" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="false">Thành tựu</button>
               </li>
             </ul>
           </div>
@@ -52,20 +52,17 @@ function Home() {
 
                 <div className="row">
                   <div className="col-lg-7 col-12">
-                    <img src="images/pim-chu-z6NZ76_UTDI-unsplash.jpeg" className="img-fluid" alt="" />
+                    <img src="/images/du-an/du-an-2/1e922dc65349e017b95818.jpg" className="img-fluid" alt="" />
                   </div>
 
                   <div className="col-lg-5 col-12">
                     <div className="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
-                      <h4 className="mb-3">Good <span>Design</span> <br />Ideas for <span>your</span> fashion</h4>
-
-                      <p>Little Fashion templates comes with <a href="sign-in.html">sign in</a> / <a href="sign-up.html">sign up</a> pages, product listing / product detail, about, FAQs, and contact page.</p>
-
-                      <p>Since this HTML template is based on Boostrap 5 CSS library, you can feel free to add more components as you need.</p>
-
+                      <h4 className="mb-3">Dự án 80x80 m&sup2;<br />căn hộ sang trọng</h4>
+                      <p>Dự án 80×80 m&sup2; tọa lạc ngay trung tâm thành phố, mang đến vị trí đắc địa thuận tiện kết nối mọi khu vực. Với thiết kế tối ưu không gian và phong cách hiện đại, dự án hứa hẹn đáp ứng đa dạng nhu cầu sử dụng.</p>
+                      <p>Diện tích lý tưởng cho văn phòng, showroom hoặc không gian sáng tạo cá nhân. Tiện ích xung quanh đầy đủ, phù hợp để an cư hoặc đầu tư lâu dài.</p>
                       <div className="mt-2 mt-lg-auto">
-                        <a href="/gioi-thieu" className="custom-link mb-2">
-                          Learn more about us
+                        <a href="/du-an" className="custom-link mb-2">
+                          Tìm hiểu thêm dự án tại đây
                           <i className="bi-arrow-right ms-2"></i>
                         </a>
                       </div>
@@ -79,21 +76,18 @@ function Home() {
                 <div className="row">
                   <div className="col-lg-7 col-12">
                     <div className="ratio ratio-16x9">
-                      <iframe src="https://www.youtube-nocookie.com/embed/f_7JqPDWhfw?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/XqZsoesa55w?si=fwzsZv69VAziN5ZI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     </div>
                   </div>
 
                   <div className="col-lg-5 col-12">
                     <div className="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
-                      <h4 className="mb-3">Life at Studio</h4>
-
-                      <p>Over three years in business, We’ve had the chance to work on a variety of projects, with companies</p>
-
-                      <p>Custom work is branding, web design, UI/UX design</p>
-
+                      <h4 className="mb-3">Tổng quan dự án</h4>
+                      <p>Dự án 80×80 m² được xây dựng tại vị trí trung tâm thành phố, nơi giao thoa giữa tiện ích hiện đại và không gian sống lý tưởng. Được đầu tư bởi [Tên nhà đầu tư], công trình mang phong cách thiết kế châu Âu, tối ưu hóa công năng và thẩm mỹ.</p>
+                      <p>Tổng diện tích 6.400 m² là nền tảng cho các giải pháp không gian đa năng, từ thương mại đến sinh hoạt. Dự án là minh chứng cho sự kết hợp giữa tầm nhìn chiến lược và giá trị bền vững trong phát triển đô thị.</p>
                       <div className="mt-2 mt-lg-auto">
                         <a href="contact.html" className="custom-link mb-2">
-                          Work with us
+                          Liên hệ với chúng tôi
                           <i className="bi-arrow-right ms-2"></i>
                         </a>
                       </div>
@@ -105,31 +99,30 @@ function Home() {
               <div className="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
                 <div className="row">
                   <div className="col-lg-7 col-12">
-                    <img src="images/cody-lannom-G95AReIh_Ko-unsplash.jpeg" className="img-fluid" alt="" />
+                    <img src="/images/du-an/du-an-2/a0c3dc96a2191147480820.jpg" className="img-fluid" alt="" />
                   </div>
 
                   <div className="col-lg-5 col-12">
                     <div className="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
-                      <h4 className="mb-3">What can help you?</h4>
-
-                      <p>Over three years in business, We’ve had the chance on projects</p>
+                      <h4 className="mb-3">Thành tựu của chúng tôi</h4>
+                      <p>Trong suốt ba năm qua, chúng tôi đã:</p>
 
                       <div className="skill-thumb mt-3">
 
-                        <strong>Branding</strong>
-                        <span className="float-end">90%</span>
+                        <strong>Xây dựng</strong>
+                        <span className="float-end">90+ công trình</span>
                         <div className="progress">
                           <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{ width: "90%" }}></div>
                         </div>
 
-                        <strong>Design & Stragety</strong>
-                        <span className="float-end">70%</span>
+                        <strong>Thiết kế và tư vấn</strong>
+                        <span className="float-end">200+ dự án</span>
                         <div className="progress">
                           <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{ width: "70%" }}></div>
                         </div>
 
-                        <strong>Online Platform</strong>
-                        <span className="float-end">80%</span>
+                        <strong>Đã hoàn thành</strong>
+                        <span className="float-end">80 công trình</span>
                         <div className="progress">
                           <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: "80%" }}></div>
                         </div>
@@ -138,7 +131,7 @@ function Home() {
 
                       <div className="mt-2 mt-lg-auto">
                         <a href="/du-an" className="custom-link mb-2">
-                          Explore products
+                          Dự án của chúng tôi
                           <i className="bi-arrow-right ms-2"></i>
                         </a>
                       </div>
@@ -153,89 +146,36 @@ function Home() {
         </div>
       </div>
     </section>
-    
-    <section className="front-product">
-      <div className="container-fluid p-0">
-        <div className="row align-items-center">
-
-          <div className="col-lg-6 col-12">
-            <img src="images/retail-shop-owner-mask-social-distancing-shopping.jpg" className="img-fluid" alt="" />
-          </div>
-
-          <div className="col-lg-6 col-12">
-            <div className="px-5 py-5 py-lg-0">
-
-              <h2 className="mb-4"><span>Retail</span> shop owners</h2>
-
-              <p className="lead mb-4">Credits go to Unsplash and FreePik websites for images used in this Little Fashion by Tooplate.</p>
-
-              <a href="/du-an" className="custom-link">
-                Explore Products
-                <i className="bi-arrow-right ms-2"></i>
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-    
     <section className="featured-product section-padding">
       <div className="container">
+        <div className="col-12 text-center">
+          <h2 className="mb-5">Dự án sắp tới</h2>
+        </div>
         <div className="row">
-
-          <div className="col-12 text-center">
-            <h2 className="mb-5">Featured Products</h2>
-          </div>
-
           <div className="col-lg-4 col-12 mb-3">
             <div className="product-thumb">
               <a href="product-detail.html">
-                <img src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" className="img-fluid product-image" alt="" />
+                <img src="/images/du-an/du-an-1/4069ed6493eb20b579fa10.jpg" className="img-fluid product-image" alt="Căn hộ 2 phòng ngủ" />
               </a>
 
               <div className="product-top d-flex">
-                <span className="product-alert me-auto">New Arrival</span>
+                <span className="product-alert me-auto">Mới</span>
 
                 <a href="#" className="bi-heart-fill product-icon"></a>
               </div>
-
-              <div className="product-info d-flex">
-                <div>
-                  <h5 className="product-title mb-0">
-                    <a href="product-detail.html" className="product-title-link">Tree pot</a>
-                  </h5>
-
-                  <p className="product-p">Original package design from house</p>
-                </div>
-
-                <small className="product-price text-muted ms-auto mt-auto mb-5">$25</small>
-              </div>
             </div>
           </div>
 
           <div className="col-lg-4 col-12 mb-3">
             <div className="product-thumb">
               <a href="product-detail.html">
-                <img src="images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg" className="img-fluid product-image" alt="" />
+                <img src="/images/du-an/du-an-2/78e739b2473df463ad2c16.jpg" className="img-fluid product-image" alt="" />
               </a>
 
               <div className="product-top d-flex">
-                <span className="product-alert">Low Price</span>
+                <span className="product-alert">Mới</span>
 
                 <a href="#" className="bi-heart-fill product-icon ms-auto"></a>
-              </div>
-
-              <div className="product-info d-flex">
-                <div>
-                  <h5 className="product-title mb-0">
-                    <a href="product-detail.html" className="product-title-link">Fashion Set</a>
-                  </h5>
-
-                  <p className="product-p">Costume Package</p>
-                </div>
-
-                <small className="product-price text-muted ms-auto mt-auto mb-5">$35</small>
               </div>
             </div>
           </div>
@@ -249,7 +189,44 @@ function Home() {
               <div className="product-top d-flex">
                 <a href="#" className="bi-heart-fill product-icon ms-auto"></a>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-4 col-12 mb-3">
+            <div className="product-thumb">
+              <div className="product-info d-flex">
+                <div>
+                  <h5 className="product-title mb-0">
+                    <a href="product-detail.html" className="product-title-link">Căn hộ</a>
+                  </h5>
 
+                  <p className="product-p">2 phòng ngủ, 80×80 m&sup2;</p>
+                </div>
+
+                <small className="product-price text-muted ms-auto mt-auto mb-5">Q2-2024</small>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-12 mb-3">
+            <div className="product-thumb">
+              <div className="product-info d-flex">
+                <div>
+                  <h5 className="product-title mb-0">
+                    <a href="product-detail.html" className="product-title-link">Nhà</a>
+                  </h5>
+
+                  <p className="product-p">Nhà cấp 4, 40x100 m&sup2;, có bãi đậu ô tô</p>
+                </div>
+
+                <small className="product-price text-muted ms-auto mt-auto mb-5">Q4-2024</small>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-12">
+            <div className="product-thumb">
               <div className="product-info d-flex">
                 <div>
                   <h5 className="product-title mb-0">
@@ -264,10 +241,9 @@ function Home() {
             </div>
           </div>
 
-          <div className="col-12 text-center">
-            <a href="/du-an" className="view-all">View All Products</a>
-          </div>
-
+        </div>
+        <div className="col-12 text-center">
+          <a href="/du-an" className="view-all">View All Products</a>
         </div>
       </div>
     </section>
