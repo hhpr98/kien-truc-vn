@@ -25,9 +25,8 @@ function NavBar() {
         </a>
 
         <div className="d-lg-none">
-          <a href="sign-in.html" className="bi-person custom-icon me-3"></a>
-
-          <a href="/du-an/2" className="bi-bag custom-icon"></a>
+          {/* <a href="/dang-nhap" className="bi-person custom-icon me-3"></a> */}
+          {/* <a href="/du-an" className="bi-bag custom-icon"></a> */}
         </div>
 
         <div className="collapse navbar-collapse" id="navbarNav">
@@ -50,9 +49,8 @@ function NavBar() {
           </ul>
 
           <div className="d-none d-lg-block">
-            <a href="sign-in.html" className="bi-person custom-icon me-3"></a>
-
-            <a href="/du-an/3" className="bi-bag custom-icon" hidden></a>
+            {/* <a href="/dang-nhap" className="bi-person custom-icon me-3"></a> */}
+            {/* <a href="/du-an" className="bi-bag custom-icon"></a> */}
           </div>
         </div>
       </div>
