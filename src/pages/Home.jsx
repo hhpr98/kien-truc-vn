@@ -4,59 +4,22 @@ function Home() {
   return (<Fragment>
     <section className="slick-slideshow">
       <div className="slick-custom">
-        <img src="images/slideshow/medium-shot-business-women-high-five.jpeg" className="img-fluid" alt="" />
+        <img src="images/trang-chu/6331673819b7aae9f3a62.jpg" className="img-fluid" alt="" />
 
         <div className="slick-bottom">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 col-10">
-                <h1 className="slick-title">Cool Fashion</h1>
+                <h1 className="slick-title">Nội thất đẹp</h1>
 
-                <p className="lead text-white mt-lg-3 mb-lg-5">Little fashion template comes with total 8 HTML pages provided by Tooplate website.</p>
+                <p className="lead text-white mt-lg-3 mb-lg-5">Với thiết kế sang trọng và quý phái, sứ mệnh của chúng tôi là mang đến cho bạn trải nghiệm tốt nhất</p>
 
-                <a href="about.html" className="btn custom-btn">Learn more about us</a>
+                <a href="/products" className="btn custom-btn">Dự án của chúng tôi</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div className="slick-custom">
-        <img src="images/slideshow/team-meeting-renewable-energy-project.jpeg" className="img-fluid" alt="" />
-
-        <div className="slick-bottom">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6 col-10">
-                <h1 className="slick-title">New Design</h1>
-
-                <p className="lead text-white mt-lg-3 mb-lg-5">Please share this Little Fashion template to your friends. Thank you for supporting us.</p>
-
-                <a href="product.html" className="btn custom-btn">Explore products</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="slick-custom">
-        <img src="images/slideshow/two-business-partners-working-together-office-computer.jpeg" className="img-fluid" alt="" />
-
-        <div className="slick-bottom">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6 col-10">
-                <h1 className="slick-title">Talk to us</h1>
-
-                <p className="lead text-white mt-lg-3 mb-lg-5">Tooplate is one of the best HTML CSS template websites for everyone.</p>
-
-                <a href="contact.html" className="btn custom-btn">Work with us</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </section>
 
     <section className="about section-padding">
@@ -64,7 +27,7 @@ function Home() {
         <div className="row">
 
           <div className="col-12 text-center">
-            <h2 className="mb-5">Get started with <span>PN</span> Design</h2>
+            <h2 className="mb-5">Dự án nổi bật</h2>
           </div>
 
           <div className="col-lg-2 col-12 mt-auto mb-auto">
@@ -101,7 +64,7 @@ function Home() {
                       <p>Since this HTML template is based on Boostrap 5 CSS library, you can feel free to add more components as you need.</p>
 
                       <div className="mt-2 mt-lg-auto">
-                        <a href="about.html" className="custom-link mb-2">
+                        <a href="/about" className="custom-link mb-2">
                           Learn more about us
                           <i className="bi-arrow-right ms-2"></i>
                         </a>
