@@ -137,7 +137,7 @@ const ProductDetail = () => {
           <div className="modal-body">
             <div className="row">
               <div className="col-lg-12 col-12 mt-4 mt-lg-0">
-                <img src="/images/trang-chu/bao-gia.PNG" className="img-fluid product-image image-full" alt="" />
+                <img src="/images/trang-chu/bao-gia.PNG" className="img-fluid product-image" alt="" />
               </div>
             </div>
             <div className="row mt-5">
