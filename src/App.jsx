@@ -7,6 +7,7 @@ import NotFound from './pages/NotFound';
 import ProductDetail from './pages/ProductDetail';
 import Contacts from './pages/Contact';
 import NavBar from './components/NavBar';
+import Blog from './pages/Blog';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/du-an/:id" element={<ProductDetail />} />
           <Route path="/gioi-thieu" element={<About />} />
           <Route path="/bao-gia" element={<Contacts />} />
+          <Route path="/bai-viet" element={<Blog />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

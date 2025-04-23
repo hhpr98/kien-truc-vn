@@ -34,17 +34,17 @@ function NavBar() {
             <li className="nav-item">
               <a className={`nav-link ${getActiveClass('/')}`} href="/">Trang chủ</a>
             </li>
-
             <li className="nav-item">
               <a className={`nav-link ${getActiveClass('/gioi-thieu')}`} href="/gioi-thieu">Giới thiệu</a>
             </li>
-
             <li className="nav-item">
               <a className={`nav-link ${getActiveClass('/du-an', false)}`} href="/du-an">Dự án</a>
             </li>
-
             <li className="nav-item">
               <a className={`nav-link ${getActiveClass('/bao-gia')}`} href="/bao-gia">Báo giá</a>
+            </li>
+            <li className="nav-item">
+              <a className={`nav-link ${getActiveClass('/bai-viet')}`} href="/bai-vet">Bài viết</a>
             </li>
           </ul>
 
