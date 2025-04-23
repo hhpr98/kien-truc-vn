@@ -21,13 +21,19 @@ function Home() {
         </div>
       </div>
     </section>
-
+    <section className="section-padding">
+      <div className="container">
+        <div className="col-12 text-center">
+          <h2 className="mb-5">Mục này dành cho Ý TƯỞNG - TRIỂN KHAI - THI CÔNG</h2>
+        </div>
+      </div>
+    </section>
     <section className="about section-padding">
       <div className="container">
         <div className="row">
 
           <div className="col-12 text-center">
-            <h2 className="mb-5">Dự án nổi bật</h2>
+            <h2 className="mb-5">Công trình nổi bật</h2>
           </div>
 
           <div className="col-lg-2 col-12 mt-auto mb-auto">
@@ -146,7 +152,7 @@ function Home() {
         </div>
       </div>
     </section>
-    <section className="featured-product section-padding">
+    <section className="section-padding">
       <div className="container">
         <div className="col-12 text-center">
           <h2 className="mb-5">Dự án sắp tới</h2>
