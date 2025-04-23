@@ -21,7 +21,7 @@ function NavBar() {
         </button>
 
         <a className="navbar-brand" href="/">
-          <strong><span>Phi</span> Design</strong>
+          <strong><span>AP.Design</span> Architecture</strong>
         </a>
 
         <div className="d-lg-none">
