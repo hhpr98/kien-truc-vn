@@ -14,7 +14,7 @@ function NavBar() {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg ap-nav">
       <div className="container">
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@ function NavBar() {
               <a className={`nav-link ${getActiveClass('/bao-gia')}`} href="/bao-gia">Báo giá</a>
             </li>
             <li className="nav-item">
-              <a className={`nav-link ${getActiveClass('/bai-viet')}`} href="/bai-vet">Bài viết</a>
+              <a className={`nav-link ${getActiveClass('/bai-viet')}`} href="/bai-viet">Bài viết</a>
             </li>
           </ul>
 
