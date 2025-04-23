@@ -3,7 +3,6 @@
   All AP custom css always have prefix ap-...          
 -----------------------------------------*/
 :root {
-  --white-color:                #FFFFFF;
   --primary-color:              #FF4400;
   --section-bg-color:           #f0f8ff;
   --dark-color:                 #000000;

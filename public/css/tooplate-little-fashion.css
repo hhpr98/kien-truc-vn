@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background: var(--white-color);
+    background: var(--ap-white-color);
     font-family: var(--body-font-family);    
     position: relative;
 }
@@ -141,7 +141,7 @@ strong {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background: none repeat scroll 0 0 var(--white-color);
+  background: none repeat scroll 0 0 var(--ap-white-color);
 }
 
 .spinner {
@@ -162,7 +162,7 @@ strong {
   margin-left: -23px;
   border-radius: 50%;
   border: 1px solid #959595;
-  border-top-color: var(--white-color);
+  border-top-color: var(--ap-white-color);
   animation: spinner .9s linear infinite;
 }
 
@@ -176,7 +176,7 @@ strong {
 .custom-btn {
   background: var(--dark-color);
   border-radius: 50px;
-  color: var(--white-color);
+  color: var(--ap-white-color);
   font-size: var(--copyright-text-font-size);
   text-transform: uppercase;
   padding: 16.50px 20px;
@@ -208,7 +208,7 @@ strong {
 .custom-btn:hover,
 .slick-slideshow .custom-btn:hover {
   background: var(--primary-color);
-  color: var(--white-color);
+  color: var(--ap-white-color);
 }
 
 .custom-icon {
@@ -251,7 +251,7 @@ strong {
   margin-left: -22.5px;
   left: 50%;
   text-align: center;
-  background: var(--white-color);
+  background: var(--ap-white-color);
   margin-top: -11px;
   color: var(--dark-color);
   font-weight: var(--font-weight-bold);
@@ -475,7 +475,7 @@ strong {
 }
 
 .slick-title {
-  color: var(--white-color);
+  color: var(--ap-white-color);
 }
 
 .slick-custom {
@@ -590,7 +590,7 @@ strong {
 
 .slick-slideshow .slick-dots li:hover,
 .slick-slideshow .slick-dots .slick-active {
-  background: var(--white-color);
+  background: var(--ap-white-color);
 }
 
 /*---------------------------------------
@@ -757,7 +757,7 @@ button:focus:not(:focus-visible) {
 }
 
 .team-thumb {
-  background: var(--white-color);
+  background: var(--ap-white-color);
   position: relative;
   border-radius: .25rem;
   padding: 42px 32px;
@@ -769,7 +769,7 @@ button:focus:not(:focus-visible) {
 
 .custom-modal-btn {
   background: var(--grey-color);
-  color: var(--white-color);
+  color: var(--ap-white-color);
   position: absolute;
   top: 0;
   right: 0;
@@ -825,7 +825,7 @@ button:focus:not(:focus-visible) {
 }
 
 .skill-thumb .progress {
-  background: var(--white-color);
+  background: var(--ap-white-color);
   box-shadow: none;
   border-radius: 100px;
   height: 1px;
@@ -844,7 +844,7 @@ button:focus:not(:focus-visible) {
 }
 
 .product-thumb {
-  background: var(--white-color);
+  background: var(--ap-white-color);
   position: relative;
   transition: all 0.5s ease-out;
 }
@@ -875,7 +875,7 @@ button:focus:not(:focus-visible) {
 }
 
 .product-icon {
-  color: var(--white-color);
+  color: var(--ap-white-color);
 }
 
 .product-title-link {
@@ -891,7 +891,7 @@ button:focus:not(:focus-visible) {
 }
 
 .product-alert {
-  background: var(--white-color);
+  background: var(--ap-white-color);
   color: var(--p-color);
   font-size: var(--custom-link-font-size);
   font-weight: var(--font-weight-bold);
@@ -932,7 +932,7 @@ button:focus:not(:focus-visible) {
   background: var(--dark-color);
   border: none;
   border-radius: 100px;
-  color: var(--white-color);
+  color: var(--ap-white-color);
   font-weight: var(--font-weight-bold);
   text-transform: uppercase;
   padding: 16px;
@@ -976,7 +976,7 @@ button:focus:not(:focus-visible) {
 
 .site-footer .social-icon-link:hover,
 .footer-menu-link:hover {
-  color: var(--white-color);
+  color: var(--ap-white-color);
 }
 
 .copyright-text {
