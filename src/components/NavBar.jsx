@@ -20,8 +20,8 @@ function NavBar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <a className="navbar-brand" href="/">
-          <strong><span>AP.Design</span> Architecture</strong>
+        <a href="/">
+          <img src="/images/logo.png" alt="Logo" className="ap-brand-logo" />
         </a>
 
         <div className="d-lg-none">
