@@ -88,17 +88,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: var(--primary-color);
-}
-
 .text-primary {
   color: var(--primary-color) !important;
-}
-
-::selection {
-  background: var(--primary-color);
-  color: var(--white-color);
 }
 
 /*---------------------------------------
@@ -1013,10 +1004,6 @@ button:focus:not(:focus-visible) {
   vertical-align: top;
   margin-bottom: 4px;
   margin-right: 15px;
-}
-
-.social-icon-link:hover {
-  color: var(--primary-color);
 }
 
 /*---------------------------------------
