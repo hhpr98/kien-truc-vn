@@ -8,7 +8,7 @@ function FloatingPanel() {
   return (
     <Fragment>
       <div className={`floating-panel ${visible ? '' : 'hidden'}`}>
-        <a href="/lien-he" className="panel-item">
+        <a href="/bao-gia" className="panel-item">
           <img src="/icons/bao-gia.jpg" alt="Báo giá" />
           <span>Báo giá</span>
         </a>

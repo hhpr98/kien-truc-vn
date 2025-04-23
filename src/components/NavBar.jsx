@@ -44,7 +44,7 @@ function NavBar() {
             </li>
 
             <li className="nav-item">
-              <a className={`nav-link ${getActiveClass('/lien-he')}`} href="/lien-he">Liên hệ</a>
+              <a className={`nav-link ${getActiveClass('/bao-gia')}`} href="/bao-gia">Báo giá</a>
             </li>
           </ul>
 

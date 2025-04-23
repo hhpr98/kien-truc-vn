@@ -19,8 +19,7 @@ function App() {
           <Route path="/du-an" element={<Products />} />
           <Route path="/du-an/:id" element={<ProductDetail />} />
           <Route path="/gioi-thieu" element={<About />} />
-          <Route path="/gioi-thieu" element={<About />} />
-          <Route path="/lien-he" element={<Contacts />} />
+          <Route path="/bao-gia" element={<Contacts />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
