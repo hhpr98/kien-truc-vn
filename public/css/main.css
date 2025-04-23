@@ -950,7 +950,7 @@ button:focus:not(:focus-visible) {
   SITE FOOTER               
 -----------------------------------------*/
 .site-footer {
-  background: var(--dark-color);
+  background: var(--ap-footer-bg-color);
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
