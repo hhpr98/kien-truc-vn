@@ -12,11 +12,11 @@ function FloatingPanel() {
           <img src="/icons/bao-gia.jpg" alt="Báo giá" />
           <span>Báo giá</span>
         </a>
-        <a href="https://zalo.me/0968960057" target="_blank" rel="noopener noreferrer" className="panel-item">
+        <a href="https://zalo.me/0379596083" target="_blank" rel="noopener noreferrer" className="panel-item">
           <img src="/icons/zalo.png" alt="Zalo" />
           <span>Chat Zalo</span>
         </a>
-        <a href="tel:0968960057" className="panel-item">
+        <a href="tel:0379596083" className="panel-item">
           <img src="/icons/phone.png" alt="Gọi điện" />
           <span>Gọi điện</span>
         </a>

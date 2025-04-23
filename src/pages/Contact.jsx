@@ -68,7 +68,7 @@ function Contact() {
               <div className="col-6 contact-info">
                 <h6 className="mb-3">Zalo</h6>
 
-                <a href="https://zalo.me/0968960057" target="_blank" className="custom-link">
+                <a href="https://zalo.me/0379596083" target="_blank" className="custom-link">
                   0968960057
                   <i className="bi-arrow-right ms-2"></i>
                 </a>

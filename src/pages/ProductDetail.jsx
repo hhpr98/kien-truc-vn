@@ -48,7 +48,7 @@ const ProductDetail = () => {
               </div>
               <p>
                 <a href="#" className="product-additional-link">Chi tiết</a>
-                <a href="https://zalo.me/0968960057" className="product-additional-link">Thanh toán cọc</a>
+                <a href="https://zalo.me/0379596083" className="product-additional-link">Thanh toán cọc</a>
               </p>
             </div>
           </div>
@@ -171,7 +171,7 @@ const ProductDetail = () => {
 
           <div className="modal-footer">
             <div className="row w-50">
-              <a type="button" className="btn custom-btn cart-btn ms-lg-4" href="https://zalo.me/0968960057" target="_blank">Liên hệ</a>
+              <a type="button" className="btn custom-btn cart-btn ms-lg-4" href="https://zalo.me/0379596083" target="_blank">Liên hệ</a>
             </div>
           </div>
         </div>
