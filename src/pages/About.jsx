@@ -8,7 +8,7 @@ function About() {
 
           <div className="col-lg-6 col-12 header-info">
             <h1>
-              <span className="d-block text-primary">Phi Design</span>
+              <span className="d-block text-primary">AP.DESIGN ARCHITECTURE</span>
               <span className="d-block text-dark">Uy tín - chất lượng</span>
             </h1>
           </div>
