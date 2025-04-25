@@ -9,19 +9,19 @@ function FloatingPanel() {
     <Fragment>
       <div className={`floating-panel ${visible ? '' : 'hidden'}`}>
         <a href="/bao-gia" className="panel-item">
-          <img src="/icons/bao-gia.jpg" alt="Báo giá" />
+          <img src="/images/icons/bao-gia.jpg" alt="Báo giá" />
           <span>Báo giá</span>
         </a>
         <a href="https://zalo.me/0379596083" target="_blank" rel="noopener noreferrer" className="panel-item">
-          <img src="/icons/zalo.png" alt="Zalo" />
+          <img src="/images/icons/zalo.png" alt="Zalo" />
           <span>Chat Zalo</span>
         </a>
         <a href="tel:0379596083" className="panel-item">
-          <img src="/icons/phone.png" alt="Gọi điện" />
+          <img src="/images/icons/phone.png" alt="Gọi điện" />
           <span>Gọi điện</span>
         </a>
         <a href="https://m.me/6643041375818745" target="_blank" rel="noopener noreferrer" className="panel-item">
-          <img src="/icons/messenger.jpg" alt="Messenger" />
+          <img src="/images/icons/messenger.jpg" alt="Messenger" />
           <span>Messenger</span>
         </a>
       </div>
