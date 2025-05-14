@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import convertServerImage from "../utils/convertServerImage";
 
 function Home() {
   return (<Fragment>
@@ -58,7 +59,7 @@ function Home() {
 
                 <div className="row">
                   <div className="col-lg-7 col-12">
-                    <img src="http://localhost:3000/images/du-an-2/1e922dc65349e017b95818.jpg" className="img-fluid" alt="" />
+                    <img src={convertServerImage("du-an-2", "1e922dc65349e017b95818.jpg")} className="img-fluid" alt="" />
                   </div>
 
                   <div className="col-lg-5 col-12">
@@ -201,7 +202,7 @@ function Home() {
           <div className="col-lg-4 col-12">
             <div className="product-thumb">
               <a href="/du-an/3">
-                <img src="http://localhost:3000/images/du-an-3/242356a3282c9b72c23d24.jpg" className="img-fluid product-image image-full" alt="" />
+                <img src={convertServerImage("du-an-3", "242356a3282c9b72c23d24.jpg")} className="img-fluid product-image image-full" alt="" />
               </a>
               <div className="product-top d-flex">
                 <a href="#" className="bi-heart-fill product-icon ms-auto"></a>
