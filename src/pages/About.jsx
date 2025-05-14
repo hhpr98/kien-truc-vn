@@ -15,7 +15,7 @@ function About() {
         </div>
       </div>
 
-      <img src="/images/du-an/du-an-3/bca6f72789a83af663b925.jpg" className="header-image img-fluid" alt="" />
+      <img src="http://localhost:3000/images/du-an-3/bca6f72789a83af663b925.jpg" className="header-image img-fluid" alt="" />
     </header>
 
     <section className="team section-padding">

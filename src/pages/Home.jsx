@@ -58,7 +58,7 @@ function Home() {
 
                 <div className="row">
                   <div className="col-lg-7 col-12">
-                    <img src="/images/du-an/du-an-2/1e922dc65349e017b95818.jpg" className="img-fluid" alt="" />
+                    <img src="http://localhost:3000/images/du-an-2/1e922dc65349e017b95818.jpg" className="img-fluid" alt="" />
                   </div>
 
                   <div className="col-lg-5 col-12">
@@ -105,7 +105,7 @@ function Home() {
               <div className="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
                 <div className="row">
                   <div className="col-lg-7 col-12">
-                    <img src="/images/du-an/du-an-2/a0c3dc96a2191147480820.jpg" className="img-fluid" alt="" />
+                    <img src="http://localhost:3000/images/du-an-2/a0c3dc96a2191147480820.jpg" className="img-fluid" alt="" />
                   </div>
 
                   <div className="col-lg-5 col-12">
@@ -161,7 +161,7 @@ function Home() {
           <div className="col-lg-4 col-12 mb-3">
             <div className="product-thumb">
               <a href="/du-an/1">
-                <img src="/images/du-an/du-an-1/4069ed6493eb20b579fa10.jpg" className="img-fluid product-image image-full" alt="Căn hộ 2 phòng ngủ" />
+                <img src="http://localhost:3000/images/du-an-1/4069ed6493eb20b579fa10.jpg" className="img-fluid product-image image-full" alt="Căn hộ 2 phòng ngủ" />
               </a>
               <div className="product-top d-flex">
                 <span className="product-alert me-auto">Mới</span>
@@ -181,7 +181,7 @@ function Home() {
           <div className="col-lg-4 col-12 mb-3">
             <div className="product-thumb">
               <a href="/du-an/2">
-                <img src="/images/du-an/du-an-2/78e739b2473df463ad2c16.jpg" className="img-fluid product-image image-full" alt="" />
+                <img src="http://localhost:3000/images/du-an-2/78e739b2473df463ad2c16.jpg" className="img-fluid product-image image-full" alt="" />
               </a>
               <div className="product-top d-flex">
                 <span className="product-alert">Mới</span>
@@ -201,7 +201,7 @@ function Home() {
           <div className="col-lg-4 col-12">
             <div className="product-thumb">
               <a href="/du-an/3">
-                <img src="/images/du-an/du-an-3/242356a3282c9b72c23d24.jpg" className="img-fluid product-image image-full" alt="" />
+                <img src="http://localhost:3000/images/du-an-3/242356a3282c9b72c23d24.jpg" className="img-fluid product-image image-full" alt="" />
               </a>
               <div className="product-top d-flex">
                 <a href="#" className="bi-heart-fill product-icon ms-auto"></a>

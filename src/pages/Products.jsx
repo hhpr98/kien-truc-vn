@@ -12,7 +12,7 @@ function Products() {
             <div className="col-lg-4 col-12 mb-3">
               <div className="product-thumb">
                 <a href="/du-an/1">
-                  <img src="/images/du-an/du-an-1/4069ed6493eb20b579fa10.jpg" className="img-fluid product-image image-full" alt="Căn hộ 2 phòng ngủ" />
+                  <img src="http://localhost:3000/images/du-an-1/4069ed6493eb20b579fa10.jpg" className="img-fluid product-image image-full" alt="Căn hộ 2 phòng ngủ" />
                 </a>
                 <div className="product-top d-flex">
                   <span className="product-alert me-auto">Mới</span>
@@ -32,7 +32,7 @@ function Products() {
             <div className="col-lg-4 col-12 mb-3">
               <div className="product-thumb">
                 <a href="/du-an/2">
-                  <img src="/images/du-an/du-an-2/78e739b2473df463ad2c16.jpg" className="img-fluid product-image image-full" alt="" />
+                  <img src="http://localhost:3000/images/du-an-2/78e739b2473df463ad2c16.jpg" className="img-fluid product-image image-full" alt="" />
                 </a>
                 <div className="product-top d-flex">
                   <span className="product-alert">Mới</span>
@@ -52,7 +52,7 @@ function Products() {
             <div className="col-lg-4 col-12">
               <div className="product-thumb">
                 <a href="/du-an/3">
-                  <img src="/images/du-an/du-an-3/242356a3282c9b72c23d24.jpg" className="img-fluid product-image image-full" alt="" />
+                  <img src="http://localhost:3000/images/du-an-3/242356a3282c9b72c23d24.jpg" className="img-fluid product-image image-full" alt="" />
                 </a>
                 <div className="product-top d-flex">
                   <a href="#" className="bi-heart-fill product-icon ms-auto"></a>
@@ -76,7 +76,7 @@ function Products() {
             <div className="col-lg-4 col-12 mb-3">
               <div className="product-thumb">
                 <a href="/du-an/1">
-                  <img src="/images/du-an/du-an-1/4069ed6493eb20b579fa10.jpg" className="img-fluid product-image image-full" alt="Căn hộ 2 phòng ngủ" />
+                  <img src="http://localhost:3000/images/du-an-1/4069ed6493eb20b579fa10.jpg" className="img-fluid product-image image-full" alt="Căn hộ 2 phòng ngủ" />
                 </a>
                 <div className="product-top d-flex">
                   <span className="product-alert me-auto">Mới</span>
@@ -96,7 +96,7 @@ function Products() {
             <div className="col-lg-4 col-12 mb-3">
               <div className="product-thumb">
                 <a href="/du-an/2">
-                  <img src="/images/du-an/du-an-2/78e739b2473df463ad2c16.jpg" className="img-fluid product-image image-full" alt="" />
+                  <img src="http://localhost:3000/images/du-an-2/78e739b2473df463ad2c16.jpg" className="img-fluid product-image image-full" alt="" />
                 </a>
                 <div className="product-top d-flex">
                   <span className="product-alert">Mới</span>
@@ -116,7 +116,7 @@ function Products() {
             <div className="col-lg-4 col-12">
               <div className="product-thumb">
                 <a href="/du-an/3">
-                  <img src="/images/du-an/du-an-3/242356a3282c9b72c23d24.jpg" className="img-fluid product-image image-full" alt="" />
+                  <img src="http://localhost:3000/images/du-an-3/242356a3282c9b72c23d24.jpg" className="img-fluid product-image image-full" alt="" />
                 </a>
                 <div className="product-top d-flex">
                   <a href="#" className="bi-heart-fill product-icon ms-auto"></a>
