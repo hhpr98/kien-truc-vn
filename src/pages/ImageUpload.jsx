@@ -1,5 +1,8 @@
 import { useState } from "react";
 import axios from "axios";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+const MySwal = withReactContent(Swal);
 
 const ImageUpload = () => {
   const [selectedProject, setSelectedProject] = useState("du-an-1");
@@ -43,10 +46,26 @@ const ImageUpload = () => {
           headers: { "Content-Type": "multipart/form-data" },
         }
       );
-      console.log("Upload response:", response.data);
-      alert("Upload thành công!");
+      // Get filename from response
+      const { filename } = response.data;
+      // Post to /api/upload/complete with filename and folder
+      await axios.post("http://localhost:3000/api/upload/complete", {
+        filename,
+        folder: "du-an-1",
+      });
+      MySwal.fire({
+        icon: "success",
+        title: "Upload thành công!",
+        showConfirmButton: false,
+        timer: 1500,
+      });
     } catch (err) {
-      alert("Upload thất bại!");
+      MySwal.fire({
+        icon: "error",
+        title: "Upload thất bại!",
+        text: "Đã xảy ra lỗi khi upload ảnh.",
+        showConfirmButton: true,
+      });
       console.log(err);
     }
   };
