@@ -1,4 +1,5 @@
 import { useState } from "react";
+import axios from "axios";
 
 const ImageUpload = () => {
   const [selectedProject, setSelectedProject] = useState("du-an-1");
@@ -29,6 +30,27 @@ const ImageUpload = () => {
     }
   };
 
+  const handleUpload = async () => {
+    if (!image) return;
+    const formData = new FormData();
+    formData.append("file", image);
+
+    try {
+      const response = await axios.post(
+        "http://localhost:3000/api/upload",
+        formData,
+        {
+          headers: { "Content-Type": "multipart/form-data" },
+        }
+      );
+      console.log("Upload response:", response.data);
+      alert("Upload thành công!");
+    } catch (err) {
+      alert("Upload thất bại!");
+      console.log(err);
+    }
+  };
+
   return (
     <section className="product-detail section-padding">
       <div className="container">
@@ -53,7 +75,14 @@ const ImageUpload = () => {
             accept="image/*"
             onChange={handleImageChange}
             className="mb-4"
-          />
+          />{" "}
+          <button
+            onClick={handleUpload}
+            disabled={!image}
+            className="bg-blue-500 text-white px-4 py-2 rounded disabled:opacity-50"
+          >
+            Upload Image
+          </button>
           {preview && (
             <div className="mb-4">
               <img
