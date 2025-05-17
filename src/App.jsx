@@ -1,13 +1,14 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import FloatingPanel from './components/FloatingPanel';
-import Products from './pages/Products';
-import NotFound from './pages/NotFound';
-import ProductDetail from './pages/ProductDetail';
-import Contacts from './pages/Contact';
-import NavBar from './components/NavBar';
-import Blog from './pages/Blog';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import FloatingPanel from "./components/FloatingPanel";
+import Products from "./pages/Products";
+import NotFound from "./pages/NotFound";
+import ProductDetail from "./pages/ProductDetail";
+import Contacts from "./pages/Contact";
+import NavBar from "./components/NavBar";
+import Blog from "./pages/Blog";
+import ImageUpload from "./pages/ImageUpload";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/gioi-thieu" element={<About />} />
           <Route path="/bao-gia" element={<Contacts />} />
           <Route path="/bai-viet" element={<Blog />} />
+          <Route path="/uploads" element={<ImageUpload />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
