@@ -68,60 +68,80 @@ export default function ProjectAdmin() {
     <section className="product-detail section-padding">
       <div className="container">
         <div style={{ maxWidth: 800, margin: "0 auto", padding: 24 }}>
-          <h2>Quản lí dự án</h2>
-          <form onSubmit={handleSubmit} style={{ marginBottom: 24 }}>
-            <input
-              name="projectName"
-              placeholder="Tên dự án"
-              value={form.projectName}
-              onChange={handleChange}
-              required
-              style={{ marginRight: 8, width: 180 }}
-            />
-            <input
-              name="productDetail"
-              placeholder="Thông số"
-              value={form.productDetail}
-              onChange={handleChange}
-              style={{ marginRight: 8, width: 180 }}
-            />
-            <input
-              name="projectMainURL"
-              placeholder="Hình ảnh"
-              value={form.projectMainURL}
-              onChange={handleChange}
-              style={{ marginRight: 8, width: 180 }}
-            />
-            <br />
-            <textarea
-              name="projectDescription"
-              placeholder="Mô tả chi tiết"
-              value={form.projectDescription}
-              onChange={handleChange}
-              style={{ marginTop: 8, width: 560, height: 60 }}
-            />
-            <br />
-            <button type="submit">{isEditing ? "Cập nhật" : "Thêm"}</button>
-            {isEditing && (
-              <button
-                type="button"
-                onClick={() => {
-                  setForm({
-                    projectId: "",
-                    projectName: "",
-                    productDetail: "",
-                    projectDescription: "",
-                    projectMainURL: "",
-                    projectImages: [],
-                  });
-                  setIsEditing(false);
-                }}
-                style={{ marginLeft: 8 }}
-              >
-                Hủy bỏ
+          <h2 className="mb-4">Quản lí dự án</h2>
+
+          <form onSubmit={handleSubmit} className="mb-4">
+            <div className="row g-2 mb-2">
+              <div className="col-md-4">
+                <input
+                  type="text"
+                  name="projectName"
+                  className="form-control"
+                  placeholder="Tên dự án"
+                  value={form.projectName}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+              <div className="col-md-4">
+                <input
+                  type="text"
+                  name="productDetail"
+                  className="form-control"
+                  placeholder="Thông số"
+                  value={form.productDetail}
+                  onChange={handleChange}
+                />
+              </div>
+              <div className="col-md-4">
+                <input
+                  type="text"
+                  name="projectMainURL"
+                  className="form-control"
+                  placeholder="Hình ảnh chính (URL)"
+                  value={form.projectMainURL}
+                  onChange={handleChange}
+                />
+              </div>
+            </div>
+
+            <div className="mb-3">
+              <textarea
+                name="projectDescription"
+                className="form-control"
+                placeholder="Mô tả chi tiết"
+                rows={3}
+                value={form.projectDescription}
+                onChange={handleChange}
+              />
+            </div>
+
+            <div className="d-flex">
+              <button type="submit" className="btn btn-primary me-2">
+                {isEditing ? "Cập nhật" : "Thêm"}
               </button>
-            )}
+              {isEditing && (
+                <button
+                  type="button"
+                  className="btn btn-secondary"
+                  onClick={() => {
+                    setForm({
+                      projectId: "",
+                      projectName: "",
+                      productDetail: "",
+                      projectDescription: "",
+                      projectMainURL: "",
+                      projectImages: [],
+                    });
+                    setIsEditing(false);
+                  }}
+                >
+                  Hủy bỏ
+                </button>
+              )}
+            </div>
           </form>
+
           <h3>Dự án hiện có</h3>
           <table
             className="table table-bordered table-hover align-middle"
