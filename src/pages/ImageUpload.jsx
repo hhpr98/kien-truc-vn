@@ -74,6 +74,20 @@ const ImageUpload = () => {
           </div>
           <div className="col-lg-6 col-md-6 col-12 mb-4">
             <label className="mr-2 fw-semibold">Chọn dự án:</label>
+            <span
+              style={{
+                color: "#0d6efd",
+                cursor: "pointer",
+                marginLeft: 8,
+                display: "inline-flex",
+                alignItems: "center",
+                fontSize: "0.85rem", // Make the text smaller
+              }}
+              onClick={() => (window.location.href = "/project-admin")}
+              title="Quản lí dự án"
+            >
+              Quản lí dự án
+            </span>
             <select
               value={selectedProject}
               onChange={handleProjectChange}
@@ -104,7 +118,11 @@ const ImageUpload = () => {
                   src={preview}
                   alt="Preview"
                   className="img-fluid rounded shadow"
-                  style={{ maxWidth: "100%", maxHeight: "256px", objectFit: "contain" }}
+                  style={{
+                    maxWidth: "100%",
+                    maxHeight: "256px",
+                    objectFit: "contain",
+                  }}
                 />
               </div>
             )}
