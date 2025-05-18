@@ -69,7 +69,9 @@ const ImageUpload = () => {
     <section className="product-detail section-padding">
       <div className="container">
         <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
-          <h1 className="text-2xl font-bold mb-4">Upload ảnh dự án</h1>
+          <div className="col-12 text-center">
+            <h2 className="mt-5 mb-5">Upload ảnh dự án</h2>
+          </div>
           <div className="mb-4">
             <label className="mr-2 font-semibold">Chọn dự án:</label>
             <select
