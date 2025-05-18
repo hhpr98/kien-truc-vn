@@ -118,54 +118,65 @@ export default function ProjectAdmin() {
                 }}
                 style={{ marginLeft: 8 }}
               >
-                Cancel
+                Hủy bỏ
               </button>
             )}
           </form>
           <h3>Dự án hiện có</h3>
-          <table border="1" cellPadding="8" style={{ width: "100%" }}>
-            <thead>
+          <table
+            className="table table-bordered table-hover align-middle"
+            style={{ width: "100%" }}
+          >
+            <thead className="table-light">
               <tr>
-                <th>Tên dự án</th>
-                <th>Thông số</th>
-                <th>Mô tả chi tiết</th>
-                <th>Hình ảnh</th>
-                <th>Actions</th>
+                <th scope="col">Tên dự án</th>
+                <th scope="col">Thông số</th>
+                <th scope="col">Mô tả chi tiết</th>
+                <th scope="col">Hình ảnh</th>
+                <th scope="col">Thao tác</th>
               </tr>
             </thead>
             <tbody>
-              {projects.map((project) => (
-                <tr key={project.projectId}>
-                  <td>{project.projectName}</td>
-                  <td>{project.productDetail}</td>
-                  <td
-                    style={{
-                      maxWidth: 250,
-                      overflow: "hidden",
-                      textOverflow: "ellipsis",
-                      whiteSpace: "nowrap",
-                    }}
-                  >
-                    {project.projectDescription}
-                  </td>
-                  <td>
-                    {project.projectMainURL && (
-                      <img
-                        src={project.projectMainURL}
-                        alt={project.projectName}
-                        style={{ width: 60, height: 40, objectFit: "cover" }}
-                      />
-                    )}
-                  </td>
-                  <td>
-                    <button onClick={() => handleEdit(project)}>Sửa</button>
-                  </td>
-                </tr>
-              ))}
-              {projects.length === 0 && (
+              {projects.length > 0 ? (
+                projects.map((project) => (
+                  <tr key={project.projectId}>
+                    <td>{project.projectName}</td>
+                    <td>{project.productDetail}</td>
+                    <td style={{ maxWidth: 250 }}>
+                      <div className="text-truncate">
+                        {project.projectDescription}
+                      </div>
+                    </td>
+                    <td>
+                      {project.projectMainURL ? (
+                        <img
+                          src={project.projectMainURL}
+                          alt={project.projectName}
+                          style={{
+                            width: 80,
+                            height: 50,
+                            objectFit: "cover",
+                            borderRadius: 4,
+                          }}
+                        />
+                      ) : (
+                        <span className="text-muted">Không có ảnh</span>
+                      )}
+                    </td>
+                    <td>
+                      <button
+                        className="btn btn-sm btn-primary"
+                        onClick={() => handleEdit(project)}
+                      >
+                        Sửa
+                      </button>
+                    </td>
+                  </tr>
+                ))
+              ) : (
                 <tr>
-                  <td colSpan={5} style={{ textAlign: "center" }}>
-                    No projects found.
+                  <td colSpan={5} className="text-center text-muted">
+                    Không tìm thấy dự án nào.
                   </td>
                 </tr>
               )}
