@@ -1,7 +1,7 @@
 import { useState } from "react";
-import axios from "axios";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+import { completeUpload, uploadFile } from "../services/uploadServices";
 const MySwal = withReactContent(Swal);
 
 const ImageUpload = () => {
@@ -39,26 +39,21 @@ const ImageUpload = () => {
     formData.append("file", image);
 
     try {
-      const response = await axios.post(
-        "http://localhost:3000/api/upload",
-        formData,
-        {
-          headers: { "Content-Type": "multipart/form-data" },
-        }
-      );
+      let response = await uploadFile(formData);
       // Get filename from response
-      const { filename } = response.data;
+      const { filename } = response;
       // Post to /api/upload/complete with filename and folder
-      await axios.post("http://localhost:3000/api/upload/complete", {
-        filename,
-        folder: "du-an-1",
-      });
+      response = await completeUpload(filename, selectedProject);
+      const { file } = response;
+      console.log("File uploaded successfully:", file);
       MySwal.fire({
         icon: "success",
         title: "Upload thành công!",
         showConfirmButton: false,
         timer: 1500,
       });
+      setPreview(null);
+      setImage(null);
     } catch (err) {
       MySwal.fire({
         icon: "error",
@@ -74,7 +69,7 @@ const ImageUpload = () => {
     <section className="product-detail section-padding">
       <div className="container">
         <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
-          <h1 className="text-2xl font-bold mb-4">Upload an Image</h1>
+          <h1 className="text-2xl font-bold mb-4">Upload ảnh dự án</h1>
           <div className="mb-4">
             <label className="mr-2 font-semibold">Chọn dự án:</label>
             <select
