@@ -68,16 +68,16 @@ const ImageUpload = () => {
   return (
     <section className="product-detail section-padding">
       <div className="container">
-        <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
+        <div className="row justify-content-center align-items-center min-vh-100 bg-light">
           <div className="col-12 text-center">
             <h2 className="mt-5 mb-5">Upload ảnh dự án</h2>
           </div>
-          <div className="mb-4">
-            <label className="mr-2 font-semibold">Chọn dự án:</label>
+          <div className="col-lg-6 col-md-6 col-12 mb-4">
+            <label className="mr-2 fw-semibold">Chọn dự án:</label>
             <select
               value={selectedProject}
               onChange={handleProjectChange}
-              className="border rounded px-2 py-1"
+              className="form-select mb-3"
             >
               {projects.map((project) => (
                 <option key={project.value} value={project.value}>
@@ -85,38 +85,38 @@ const ImageUpload = () => {
                 </option>
               ))}
             </select>
+            <input
+              type="file"
+              accept="image/*"
+              onChange={handleImageChange}
+              className="form-control mb-3"
+            />
+            <button
+              onClick={handleUpload}
+              disabled={!image}
+              className="btn btn-primary w-100 mb-3"
+            >
+              Tải ảnh lên
+            </button>
+            {preview && (
+              <div className="mb-3 text-center">
+                <img
+                  src={preview}
+                  alt="Preview"
+                  className="img-fluid rounded shadow"
+                  style={{ maxWidth: "100%", maxHeight: "256px", objectFit: "contain" }}
+                />
+              </div>
+            )}
+            {image && (
+              <div>
+                <p className="text-success fw-semibold">
+                  Đã chọn ảnh cho{" "}
+                  {projects.find((p) => p.value === selectedProject).label}
+                </p>
+              </div>
+            )}
           </div>
-          <input
-            type="file"
-            accept="image/*"
-            onChange={handleImageChange}
-            className="mb-4"
-          />
-          {" "}
-          <button
-            onClick={handleUpload}
-            disabled={!image}
-            className="bg-primary text-white px-4 py-2 rounded disabled:opacity-50"
-          >
-            Upload Image
-          </button>
-          {preview && (
-            <div className="mb-4">
-              <img
-                src={preview}
-                alt="Preview"
-                className="max-w-xs max-h-64 rounded shadow"
-              />
-            </div>
-          )}
-          {image && (
-            <div>
-              <p className="text-green-600 font-semibold">
-                Đã chọn ảnh cho{" "}
-                {projects.find((p) => p.value === selectedProject).label}
-              </p>
-            </div>
-          )}
         </div>
       </div>
     </section>
