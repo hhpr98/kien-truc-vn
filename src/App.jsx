@@ -9,6 +9,7 @@ import Contacts from "./pages/Contact";
 import NavBar from "./components/NavBar";
 import Blog from "./pages/Blog";
 import ImageUpload from "./pages/ImageUpload";
+import ProjectAdmin from "./pages/ProjectAdmin";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/bao-gia" element={<Contacts />} />
           <Route path="/bai-viet" element={<Blog />} />
           <Route path="/uploads" element={<ImageUpload />} />
+          <Route path="/project-admin" element={<ProjectAdmin />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
